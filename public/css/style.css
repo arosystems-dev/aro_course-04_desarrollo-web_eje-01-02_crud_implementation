@@ -1,0 +1,54 @@
+.cabecera {
+    background: #008080;
+}
+
+.menu-boton {
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.opciones {
+    border: 2px solid #008080;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.contenedor-img-logo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-logo {
+    border: 15px solid rgb(0, 128, 128, .05);
+    border-radius: 50%;
+    width: 80%;
+    margin: 10px;
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+}
+
+/* ESTILOS PAR EL FORMULARIO */
+.fondoInicio {
+    width: 100%;
+    height: 75vh;
+
+}
+
+.sectorBuscar {
+    display: flex;
+}
+
+.opcion {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerTable {
+    background: rgb(0, 128, 128, .1) !important;
+}
