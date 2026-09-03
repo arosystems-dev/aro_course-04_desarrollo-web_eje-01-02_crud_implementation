@@ -13,5 +13,5 @@ Route::post('/articulo/search', [CArticulo::class, 'search']);
 Route::get('/articulo/create', [CArticulo::class, 'create']);
 Route::post('/articulo/store', [CArticulo::class, 'store']);
 Route::get('/articulo/edit/{id}', [CArticulo::class, 'edit']);
-Route::put('/articulo/update', [CArticulo::class, 'update']);
+Route::put('/articulo/update/{id}', [CArticulo::class, 'update']);
 Route::get('/articulo/destroy/{id}', [CArticulo::class, 'destroy']);

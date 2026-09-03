@@ -5,6 +5,7 @@
     <hr>
     <form method="POST" action="/articulo/update/{{$articulo->id}}" enctype="multipart/form-data">
         {{csrf_field()}}
+        <input type="hidden" name="_method" value="PUT">
         <div class="card p-3">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
