@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="AROSYSTEMS CRUD ARTICULOS" />
+    <meta name="description" content="AROSYSTEMS.DEV CRUD ARTICULOS" />
+    <link rel="icon" href="{{ asset('logo.ico')}}">
     <!-- ESTILOS CSS -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
     <!-- TITULO -->
-    <title>aro_pry-03-03_eje-01-02_crud</title>
+    <title>aro_crud-artículos</title>
 </head>
 
 <body>
